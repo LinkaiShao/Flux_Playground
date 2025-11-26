@@ -1,0 +1,73 @@
+{
+  "catalog_1_high_fidelity": {
+    "desc": "Maximum texture preservation, subtle improvements only",
+    "strength": 0.30,
+    "guidance_scale": 4.5,
+    "steps": 24,
+    "prompt": "professional e-commerce product photography, wrinkle-free garment, clean pressed fabric, studio lighting, white background, preserve original texture and color",
+    "negative_prompt": "wrinkles, creases, folds, shadows, uneven lighting, distorted, background clutter"
+  },
+
+  "catalog_2_balanced": {
+    "desc": "Balanced quality and fidelity",
+    "strength": 0.45,
+    "guidance_scale": 5.5,
+    "steps": 28,
+    "prompt": "professional catalog photography, smooth wrinkle-free garment, perfectly pressed, even studio lighting, white seamless background, preserve fabric texture and original color",
+    "negative_prompt": "wrinkles, creases, folds, harsh shadows, uneven lighting, color shift, texture loss, distortion"
+  },
+
+  "catalog_3_strong_correction": {
+    "desc": "Strong wrinkle removal and straightening",
+    "strength": 0.60,
+    "guidance_scale": 6.5,
+    "steps": 28,
+    "prompt": "professional e-commerce catalog photo, perfectly smooth wrinkle-free garment, flat pressed fabric, uniform studio lighting, pure white background, maintain fabric texture",
+    "negative_prompt": "wrinkles, creases, folds, rumpled fabric, shadows, uneven lighting, color change, texture degradation"
+  },
+
+  "catalog_4_texture_priority": {
+    "desc": "Prioritize texture preservation over perfection",
+    "strength": 0.35,
+    "guidance_scale": 4.0,
+    "steps": 24,
+    "prompt": "e-commerce product photo, wrinkle-free, studio lighting, white background, exact original texture and color preserved, natural fabric appearance",
+    "negative_prompt": "wrinkles, folds, shadows, texture change, color shift, artificial look"
+  },
+
+  "catalog_5_high_quality": {
+    "desc": "Maximum quality, slower processing",
+    "strength": 0.45,
+    "guidance_scale": 6.0,
+    "steps": 40,
+    "prompt": "high-end professional catalog photography, immaculately pressed wrinkle-free garment, perfect studio lighting, pure white background, preserve exact fabric texture and color",
+    "negative_prompt": "wrinkles, creases, folds, harsh shadows, color variation, texture loss, uneven lighting, background elements"
+  },
+
+  "catalog_6_subtle_enhancement": {
+    "desc": "Very subtle changes, almost identical to input",
+    "strength": 0.25,
+    "guidance_scale": 3.5,
+    "steps": 20,
+    "prompt": "clean product photo, smooth fabric, even lighting, white background, preserve original appearance",
+    "negative_prompt": "wrinkles, shadows, uneven lighting"
+  },
+
+  "catalog_7_aggressive_perfection": {
+    "desc": "Maximum perfection, may sacrifice some texture",
+    "strength": 0.70,
+    "guidance_scale": 7.0,
+    "steps": 32,
+    "prompt": "flawless professional catalog photography, perfectly smooth wrinkle-free garment, pristine pressed fabric, perfect studio lighting, pure white seamless background",
+    "negative_prompt": "any wrinkles, creases, folds, imperfections, shadows, texture artifacts, color inconsistency, uneven lighting"
+  },
+
+  "catalog_8_color_accurate": {
+    "desc": "Focus on color accuracy and texture",
+    "strength": 0.40,
+    "guidance_scale": 5.0,
+    "steps": 28,
+    "prompt": "professional product photography, wrinkle-free, studio lighting, white background, exact color match to original, faithful texture reproduction, color-accurate",
+    "negative_prompt": "wrinkles, color shift, hue change, saturation change, texture alteration, shadows"
+  }
+}

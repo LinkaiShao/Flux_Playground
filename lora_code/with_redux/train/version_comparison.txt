@@ -1,0 +1,8 @@
+| Aspect        | V1                 | V2                 | Orig V3 (trained)  | New V3             |
+ |---------------|--------------------|--------------------|--------------------|--------------------|
+ | Sigma source  | u                  | u                  | u                  | scheduler.sigmas   |
+ | Sigma shape   | (-1,1,1) BUG       | (-1,1,1,1)         | (-1,1,1,1)         | (-1,1,1,1)         |
+ | Interpolation | (1-u)*data+u*noise | (1-u)*noise+u*data | (1-u)*noise+u*data | (1-σ)*data+σ*noise |
+ | Direction     | data→noise         | noise→data         | noise→data         | data→noise         |
+ | Target        | noise-data ✓       | data-noise ✗       | data-noise ✗       | noise-data ✓       |
+ | Timestep      | sched.ts/1000      | u directly         | u directly         | sched.ts/1000      |
